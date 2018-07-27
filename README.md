@@ -1,13 +1,7 @@
 # git-config
 
+## 配置git
+
 ````sh
-git config --global color.status auto
-git config --global color.diff auto
-git config --global color.branch auto
-git config --global color.interactive auto
-
-git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-
-git config --global alias.lgh "log --graph --decorate --oneline --pretty=format:'%Cred%h - %C(bold white) %s %Creset %C(yellow)%d  %C(cyan) <%cd> %Creset %Cgreen(%cn)' --abbrev-commit --date=format:'%Y-%m-%d %H:%M:%S'"
-
+  curl https://raw.githubusercontent.com/flyaways/git-config/master/git.sh |sh
 ````
