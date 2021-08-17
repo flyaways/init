@@ -1,5 +1,5 @@
 # git-config
 
 ````sh
-  curl https://raw.githubusercontent.com/flyaways/git-config/master/git.sh | sh
+  curl https://raw.githubusercontent.com/flyaways/init/master/env | sh
 ````
